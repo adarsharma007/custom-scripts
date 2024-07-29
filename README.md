@@ -87,9 +87,15 @@ Git must be installed and configured for gcn and gac to work.
 Add the following lines to your ~/.zshrc file to use the alias commands instead of the file names:
 
 ```bash
-alias gac='sh /Users/adarshsharma/custom-scripts/git_add_commit.sh'
-alias gnb='sh /Users/adarshsharma/custom-scripts/git_create_new_branch.sh'
-alias cnv='sh /Users/adarshsharma/custom-scripts/change_node_version.sh'
+alias gac='sh <path-to-directory>/git_add_commit.sh'
+alias gnb='sh <path-to-directory>/git_create_new_branch.sh'
+alias cnv='sh <path-to-directory>/change_node_version.sh'
+```
+
+Don't forget to source your zshrc file in order to use alias for commands 
+
+```bash
+source ~/.zshrc
 ```
 
 ### License
